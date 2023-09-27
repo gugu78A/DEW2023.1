@@ -1,53 +1,59 @@
 body {
-    margin: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
     background-color: pink;
 }
+
 header {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 105px;
+    justify-content: space-between;
 }
-.a{
-    width: 270px;
-    height: 110px ;
-    margin: 7px;
-    border: 2px solid rgb(228, 3, 179);
+
+.A {
+    width: 25%;
+    height: 100%;
+    margin: 2%;
+    border: 5px solid rgb(228, 80, 208);
 }
-#agrupamento {
-    margin-top: 20%;
+
+#B {
+    margin-top: 3%;
+    height: 490px;
     display: flex;
-    width: 65% ;
-    height: 480px ;
-    border: 5px solid rgb(132, 0, 255);
-    margin-top: 50px ;
+    width: 105%;
+}
+#Bb {
+    display: flex;
+    margin-top: 3%;
+    width: 20%;
+    height: 420px;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 13%;
+}
+
+.Bba {
+    width: 100%;
+    height: 152px;
+    border: 5px solid rgb(228, 80, 208);
+    margin-bottom: 27px;
+}
+
+#Ba {
+    display: flex;
+    width: 67%;
+    height: 430px;
+    margin-top: 45px;
+    border: 5px solid rgb(228, 80, 208);
+    align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
-    align-items: center;
 }
-.b {
-    width: 300px ;
-    height: 150px ;
-    border: 5px solid rgb(128, 2, 128) ;
-    background-color: rgb(228, 3, 179);
-
-    
-}
-
-#grupo {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column ;
-    right: 20px;
-    top: 100%;
-
-    
-}
-.c {
-    width: 260px ;
-    height: 130px ;
-    margin-bottom: 2px;
-    border: 2px solid rgba(228, 3, 179);
+.Baa {
+    width: 38%;
+    height: 30%;
+    border: 5px solid rgb(195, 0, 255);
     
 }
