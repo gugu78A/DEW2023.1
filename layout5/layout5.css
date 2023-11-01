@@ -1,0 +1,56 @@
+.
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header 
+{
+    display: grid;
+    margin-top: 8px;
+    margin-left: 1px;
+    margin-right: 5px;
+    height: 120px;
+    width: 1590px;
+    border: 2px solid black;
+}
+#lo
+{
+    height: 120px;
+    width: 590px;
+    border: 1px solid black;
+    grid-area: 4 / 1 / 2 / 3;
+}
+#b
+{
+    height: 120px;
+    width: 998px;
+    border: 1px solid black;
+    grid-area: 4 / 5 / 1 / 6; 
+}
+main
+{
+    display: grid;
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 9px;
+    height: 620px;
+    width: 1585px;
+    border: 2px solid black;
+}
+#menu1
+{
+    height: 618px;
+    width: 400px;
+    border: 2px solid black;
+}
+#senha
+{
+    height: 175px;
+    width: 397px;
+    border: 2px solid black;
+}
